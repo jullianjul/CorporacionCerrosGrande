@@ -1,9 +1,13 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import CarouselSlides from '../components/carousel';
+
+
 function Landingpage() {
   return (
     <>
-    <div>Hola, ya quedo lo de las rutas pa</div>
+        <CarouselSlides></CarouselSlides>
     </>
-  )
+  );
 }
 
-export default Landingpage
+export default Landingpage;
